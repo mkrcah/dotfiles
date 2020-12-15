@@ -1,0 +1,51 @@
+# Inspiration:
+# https://github.com/brauliobo/gitconfig/blob/master/configs/.gitconfig
+# https://lantran.github.io/articles/git-housekeeping/
+# https://www.erikschierboom.com/2020/02/17/cleaning-up-local-git-branches-deleted-on-a-remote/
+
+[user]
+	email = marcel.krcah@gmail.com
+	name = Marcel Krčah
+
+
+[push]
+	default = current
+
+
+[alias]
+	co = !git-branch-fuzzy
+	com = checkout master
+	cop = checkout -
+	cob = checkout -b 
+
+	s = status
+
+	ps = push
+	psf = push --force
+
+	pl = pull
+
+	rbm = rebase master
+	rbc = rebase --continue	
+	rba = rebase --abort
+	rbs = rebase --skip
+
+	a = add 
+
+	ci = commit
+	cia = commit --amend
+	
+	m = merge 
+	r = remote 
+	rv = remote -v 
+
+	st = stash
+	stp = stash pop
+	
+	b = branch 
+
+	cleanup = !git-cleanup
+
+	res = restore . 
+	
+

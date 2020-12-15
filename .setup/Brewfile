@@ -1,0 +1,47 @@
+
+cask_args appdir: '/Applications'
+
+# general purpose command-line tools
+
+brew 'zsh'
+brew 'antigen'
+brew 'openssl'
+brew 'nmap'
+brew 'wget'
+brew 'p7zip'
+brew 'coreutils'
+brew 'readline'
+brew 'autojump'
+brew 'tmux'
+brew 'httpie'
+brew 'jq'
+brew 'neovim'
+brew 'ack'
+
+# langs: scala, clojure
+# cask 'java'
+# brew 'leiningen'
+# brew 'ant'
+# brew 'maven'
+# brew 'sbt'
+
+# langs: other
+brew 'node'
+brew 'python'
+
+# apps: dev
+cask 'docker'
+cask 'iterm2'
+
+# apps: work
+cask 'slack'
+
+# apps: general
+cask 'firefox'
+cask 'spectacle'
+cask 'istat-menus'
+cask '1password'
+cask 'spotify'
+cask 'vlc'
+
+
