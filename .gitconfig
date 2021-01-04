@@ -34,6 +34,8 @@
 
 	ci = commit
 	cia = commit --amend
+	cim = commit -m 
+	ciam = commit --amend -m
 	
 	m = merge 
 	r = remote 
@@ -49,3 +51,5 @@
 	res = restore . 
 	
 
+[pull]
+	rebase = true
